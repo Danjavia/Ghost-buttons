@@ -1,0 +1,67 @@
+@import "variables.less";
+
+.ghost-btn {
+	padding: 10px 20px;
+	border: 1px solid @default-color;
+	color: @default-color;
+	font-family: @OpenSans;
+	text-decoration: none;
+
+	&:hover,
+	&:active {
+		text-decoration: none;
+		background: @default-color;
+		color: @obscure;
+	}
+
+	&.ghost-btn-uc {
+		text-transform: uppercase;
+	}
+
+	&.ghost-btn-capitalize {
+		text-transform: capitalize;
+	}
+
+	&.ghost-btn-bordered {
+		border-radius: 3px;
+	}
+
+	&.ghost-btn-block {
+		display: block;
+		margin: 20px 0;
+		text-align: center;
+	}
+
+	&.ghost-btn-blue {
+		color: @bc-twitter;
+		border: 1px solid @bc-twitter;
+
+		&:hover,
+		&:active {
+			background: @bc-twitter;
+			color: @default-color;
+		}
+	}
+
+	&.ghost-btn-red {
+		color: @bc-google;
+		border: 1px solid @bc-google;
+
+		&:hover,
+		&:active {
+			background: @bc-google;
+			color: @default-color;
+		}
+	}
+
+	&.ghost-btn-black {
+		color: @bc-github-4;
+		border: 1px solid @bc-github-4;
+
+		&:hover,
+		&:active {
+			background: @bc-github-4;
+			color: @default-color;
+		}
+	}
+}

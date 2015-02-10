@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans );
+.ghost-btn {
+  padding: 10px 20px;
+  border: 1px solid #fefefe;
+  color: #fefefe;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+.ghost-btn:hover,
+.ghost-btn:active {
+  text-decoration: none;
+  background: #fefefe;
+  color: #848484;
+}
+.ghost-btn.ghost-btn-uc {
+  text-transform: uppercase;
+}
+.ghost-btn.ghost-btn-capitalize {
+  text-transform: capitalize;
+}
+.ghost-btn.ghost-btn-bordered {
+  border-radius: 3px;
+}
+.ghost-btn.ghost-btn-block {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+}
+.ghost-btn.ghost-btn-blue {
+  color: #55acee;
+  border: 1px solid #55acee;
+}
+.ghost-btn.ghost-btn-blue:hover,
+.ghost-btn.ghost-btn-blue:active {
+  background: #55acee;
+  color: #fefefe;
+}
+.ghost-btn.ghost-btn-red {
+  color: #dd4b39;
+  border: 1px solid #dd4b39;
+}
+.ghost-btn.ghost-btn-red:hover,
+.ghost-btn.ghost-btn-red:active {
+  background: #dd4b39;
+  color: #fefefe;
+}
+.ghost-btn.ghost-btn-black {
+  color: #333333;
+  border: 1px solid #333333;
+}
+.ghost-btn.ghost-btn-black:hover,
+.ghost-btn.ghost-btn-black:active {
+  background: #333333;
+  color: #fefefe;
+}
